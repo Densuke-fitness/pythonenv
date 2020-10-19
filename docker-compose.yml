@@ -1,0 +1,11 @@
+services:
+  
+   pythonenv:
+       build: .
+       container_name: pythonenv
+       tty: true
+       volumes:
+           - "./:/workdir"
+       # command: /bin/bash
+
+       
